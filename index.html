@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Markdown Table Generator — Glassmorphism Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glass-bg"></div>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-row">
+                <span class="logo-emoji">📊</span>
+                <div class="title-col">
+                    <h1>Grid Markdown Table Generator</h1>
+                    <p class="tagline">Create cell grids and parse rows directly into pristine Markdown tables.</p>
+                </div>
+            </div>
+            <div class="badge">calculators</div>
+        </header>
+
+        <main class="workspace-card">
+            
+            <div style="display: flex; gap:12px; margin-bottom:12px;">
+                <input type="number" id="tbl-r" value="3" min="1" max="10" style="width: 80px;">
+                <input type="number" id="tbl-c" value="3" min="1" max="10" style="width: 80px;">
+                <button class="btn" onclick="genTbl()">Generate</button>
+            </div>
+            <textarea id="tbl-code" readonly style="width: 100%; height: 150px;"></textarea>
+        
+        </main>
+        
+        <footer class="app-footer">
+            <p>Created as a premium portfolio piece by <a href="https://github.com/VARSHAN69" target="_blank">@VARSHAN69</a></p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
