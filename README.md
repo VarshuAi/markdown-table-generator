@@ -38,7 +38,7 @@ version: 1.0
 type: Repository
 author: VarshuAi
 description: >
-  Create cell grids and parse rows directly into pristine Markdown tables.
+  name: markdown-table-generator version: 1.0 type: Repository author: VarshuAi description: >   Create cell grids and parse rows directly into pristine Markdown tables. primary_tech: CSS
 primary_tech: CSS
 ```
 
